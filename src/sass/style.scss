@@ -15,6 +15,7 @@ a {
 }
 
 ul{
+    list-style: none;
     padding:0;
 }
 
@@ -28,6 +29,10 @@ ul{
     height: 3px;
     background-color: $main-color;
     margin: 25px auto 0 auto;
+}
+
+.policy__item{
+    padding-left: 30px;
 }
 
 @import 'blocks/promo';
